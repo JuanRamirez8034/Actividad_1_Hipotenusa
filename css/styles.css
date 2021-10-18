@@ -124,3 +124,22 @@ input[type="submit"]:hover {
     cursor: pointer;
     background-color: darkorange;
 }
+@media only screen and (max-width: 800px) {
+    .secundaria form {
+        display: inline-block;
+        width: 100%;
+        margin-right: 0;
+        margin-left: 0;
+        border-bottom-left-radius: 0;
+        border-top-left-radius: 0;
+    }
+    .resultado {
+        display: inline-block;
+        width: 100%;
+        border-bottom-right-radius: 0;
+        border-top-right-radius: 0;
+    }
+    .principal h1 {
+        font-size: 20px;
+    }
+}
